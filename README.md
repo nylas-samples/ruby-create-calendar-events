@@ -1,8 +1,6 @@
-# ruby-read-calendar-events
+# ruby-create-calendar-events
 
 This sample will show you to easily create your calendar events using the Nylas Ruby SDK.
-
-You can follow along step-by-step in our blog post ["How to Manage Calendar Events with the Nylas Ruby SDK"](https://www.nylas.com/blog/how-to-manage-calendar-events-with-the-nylas-ruby-sdk/).
 
 ## Setup
 
@@ -15,10 +13,9 @@ You can follow along step-by-step in our blog post ["How to Manage Calendar Even
 You'll need the following values:
 
 ```text
-ACCESS_TOKEN =
-CLIENT_ID =
-CLIENT_SECRET =
-CALENDAR_ID =
+V3_TOKEN =
+GRANT_ID =
+V3_HOST = 
 ```
 
 Add the above values to a new `.env` file:
@@ -42,7 +39,7 @@ Run the script using the `ruby` command:
 $ ruby CreateEvents.rb
 ```
 
-You will get a notification whether your event was successfully created or not
+You will get a notification whether your event was created successfully or not
 
 ## Learn more
 
