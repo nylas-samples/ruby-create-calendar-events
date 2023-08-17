@@ -8,11 +8,6 @@ nylas = Nylas::Client.new(
 	host: ENV["V3_HOST"]
 )
 
-# Identifier
-identifier = {
-    grant_id: ENV["GRANT_ID"]
-}
-
 # Query parameters
 query_params = {
     calendar_id: ENV["GRANT_ID"]
